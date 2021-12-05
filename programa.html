@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+
+	var ano = 2021;
+	var idadeDiogo = ano - 1988;
+	var idadeFlavio = ano - 1980;
+	var media = (idadeDiogo + idadeFlavio) / 2;
+
+
+	mostra("Eu tenho " + idadeDiogo + " anos.");
+
+	mostra("O dobro da idade do Flávio é " + idadeFlavio * 2 + " anos." );
+
+	alert("Está velho hein Flávio!")
+
+	ano = 1980;
+
+	pulaLinha();
+
+	mostra(" Em " + ano + " eu não tinha nascido, já o Flávio..."); 
+
+	mostra(" Se somar os anos de estrada vividos, temos um média de " + Math.round(media) + " anos percorridos.");
+
+
+
+	// calma amigo, são só comentários...
+
+</script>

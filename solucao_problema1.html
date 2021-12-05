@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var ano_atual = 2021
+	var inicio = 1500
+	var nascimento = 28
+	geracoes = (ano_atual - inicio) / nascimento
+
+	mostra("De " + inicio + " a " + ano_atual + ", são calculadas " + Math.round(geracoes) + " gerações, em um intervalo de " + nascimento + " anos.");
+
+
+
+
+</script>
